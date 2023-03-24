@@ -3,11 +3,11 @@ title: "Week_2_Homework_RMarkdown"
 output: github_document
 date: "2023-03-24"
 ---
-```{r, eval=TRUE}
-"I study babies"
-"But do babies know me?" 
-"I will never know"
-```
+
+I study babies
+But do babies know me
+I will never know 
+
 ```{r, echo=FALSE}
  library(ggplot2)
  ggplot(data = mpg, aes(x = cyl, y = hwy)) + 
